@@ -1,0 +1,17 @@
+test (0.0.5-1) unstable; urgency=medium
+
+  * 3nd release.
+
+ -- Test Author <test.author@nomail.org>  Wed, 05 Apr 2017 15:10:12 +0000
+
+test (0.0.4-1) unstable; urgency=medium
+
+  * 2nd release.
+
+ -- Test Author <test.author@nomail.org>  Thu, 16 Mar 2017 13:34:23 +0000
+
+test (0.0.3-1) unstable; urgency=medium
+
+  * Initial release.
+
+ -- Test Author <test.author@nomail.org>  Tue, 14 Mar 2017 17:34:52 +0000

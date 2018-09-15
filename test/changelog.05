@@ -1,0 +1,79 @@
+mygal-rtl8192eu-driver (1.7.0-1) unstable; urgency=medium
+
+  * Release 1.7.0
+    - [cc5fe93] Bring back the debian packaging files
+    - [360484e] Update .gitignore file
+    - [dcb786f] Update .gitignore file
+
+ --  Yuri Bugelli <i.bugelli@onetech.it>  Wed, 14 Feb 2018 13:00:06 +0100
+
+mygal-rtl8192eu-driver (1.6.0.20180212-1) unstable; urgency=medium
+
+  * Release 1.6.0.20180212
+
+ --  Yuri Bugelli <i.bugelli@onetech.it>  Mon, 12 Feb 2018 16:17:14 +0100
+
+mygal-rtl8192eu-driver (1.6.0-3) jessie; urgency=medium
+
+  * Release 1.6.0
+
+ --  Yuri Bugelli <i.bugelli@onetech.it>  Wed, 07 Feb 2018 17:15:13 +0100
+
+mygal-rtl8192eu-driver (1.6.0.20180205-1) unstable; urgency=medium
+
+  * Release 1.6.0.20180205
+
+ --  Yuri Bugelli <i.bugelli@onetech.it>  Mon, 05 Feb 2018 13:54:36 +0100
+
+mygal-rtl8192eu-driver (1.6.0-2) unstable; urgency=medium
+
+  * Release 1.6.0
+
+ --  Yuri Bugelli <i.bugelli@onetech.it>  Mon, 29 Jan 2018 10:18:19 +0100
+
+mygal-rtl8192eu-driver (1.6.0-1) unstable; urgency=medium
+
+  * Release 1.6.0
+    - [e23ee13] Remove debian packaging files
+    - [0db7547] Use makefile to build debian sources
+    - [6b72a25] Remove stale hidden directory
+
+ --  Yuri Bugelli <i.bugelli@onetech.it>  Tue, 16 Jan 2018 15:47:00 +0100
+
+mygal-rtl8192eu-driver (1.5.2.20180116-1) unstable; urgency=medium
+
+  * Release 1.5.2.20180116
+
+ --  Yuri Bugelli <i.bugelli@onetech.it>  Tue, 16 Jan 2018 11:04:00 +0100
+
+mygal-rtl8192eu-driver (1.5.0-1) unstable; urgency=medium
+
+  * Release 1.5.0
+    - [f95bbb6] Add support for local debian changelog update
+
+ --  Yuri Bugelli <i.bugelli@onetech.it>  Wed, 25 Oct 2017 16:58:13 +0200
+
+mygal-rtl8192eu-driver (1.3.0-1) unstable; urgency=medium
+
+  * Release 1.3.0
+    - [273b265] Remove build directory after package is done in ant script
+    - [a04d767] Update ant script to support jenkins autobuild
+    - [467c30f] Update kernel dependencies
+    - [c7a5510] Modify build.xml to package source files
+    - [5ac4d61] Modify Debian packaging rules to compile from sources
+    - [a4df41a] Add sources of the driver
+    - [f58adf5] Remove binary version of the driver
+    - [e5c6b98] Removed stale git-dch script
+    - [46e6c1f] Bumped jessie changelog version to 1.2.0
+    - [4469023] Updated build.xml to use the new git-dch version
+    - [d2b923e] Updated git-dch to handle tags prefix
+    - [d9e8fca] New build system with distribution support
+
+ --  Yuri Bugelli <i.bugelli@onetech.it>  Thu, 07 Sep 2017 17:00:59 +0200
+
+mygal-rtl8192eu-driver (1.0.0-1) unstable; urgency=medium
+
+  * Release 1.0.0
+    - [a93124c] First unstable release
+
+ --  Yuri Bugelli <i.bugelli@onetech.it>  Wed, 28 Jun 2017 15:58:14 +0200
