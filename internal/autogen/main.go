@@ -23,10 +23,10 @@ var (
 	gitCommitHash = []string{"rev-parse", "--short", "HEAD"}
 )
 
-func valueFromGit(command string, parameters []string) (version string) {
+func valueFromGit(command string, parameters []string) (value string) {
 	cmd := exec.Command(command, parameters...)
 	if out, err := cmd.Output(); err == nil {
-		version = strings.TrimSpace(string(out))
+		value = strings.Split(strings.TrimSpace(string(out)), "\n")[0]
 	}
 	return
 }
