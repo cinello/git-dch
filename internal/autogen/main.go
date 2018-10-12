@@ -19,7 +19,7 @@ const (
 var (
 	packageName   = flag.String("p", "main", "package name")
 	gitCommand    = "git"
-	gitVersionTag = []string{"git", "tag", "--list", "[0-9999].[0-9999].[0-9999]", "--sort=-version:refname"}
+	gitVersionTag = []string{"tag", "--list", "[0-9999].[0-9999].[0-9999]", "--sort=-version:refname"}
 	gitCommitHash = []string{"rev-parse", "--short", "HEAD"}
 )
 
