@@ -23,8 +23,8 @@ import (
 
 	"gitlab.yuribugelli.it/debian/git-dch-go/pkg/dchversion"
 
-	"github.com/gandalfmagic/go-debian/changelog"
-	"github.com/gandalfmagic/go-debian/version"
+	"gitlab.yuribugelli.it/debian/go-debian/changelog"
+	"gitlab.yuribugelli.it/debian/go-debian/version"
 )
 
 // Item encapsulate a debian changelog entry

@@ -23,7 +23,7 @@ import (
 
 	"gitlab.yuribugelli.it/debian/git-dch-go/pkg/git"
 
-	"github.com/gandalfmagic/go-debian/version"
+	"gitlab.yuribugelli.it/debian/go-debian/version"
 )
 
 var (

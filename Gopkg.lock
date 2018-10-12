@@ -18,7 +18,7 @@
 
 [[projects]]
   digest = "1:ce46843d908294c23cc9ca2d99577ac693d8c9243449398efdfd901e83020775"
-  name = "github.com/gandalfmagic/go-debian"
+  name = "gitlab.yuribugelli.it/debian/go-debian"
   packages = [
     "changelog",
     "version",
@@ -227,8 +227,8 @@
   analyzer-name = "dep"
   analyzer-version = 1
   input-imports = [
-    "github.com/gandalfmagic/go-debian/changelog",
-    "github.com/gandalfmagic/go-debian/version",
+    "gitlab.yuribugelli.it/debian/go-debian/changelog",
+    "gitlab.yuribugelli.it/debian/go-debian/version",
     "github.com/jessevdk/go-flags",
     "gopkg.in/src-d/go-git.v4",
     "gopkg.in/src-d/go-git.v4/config",
