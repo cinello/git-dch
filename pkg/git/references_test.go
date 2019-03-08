@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gitlab.yuribugelli.it/debian/go-debian/version"
+	"github.com/cinello/go-debian/version"
 )
 
 func TestLastCommitHash(t *testing.T) {

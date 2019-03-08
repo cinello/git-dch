@@ -20,7 +20,7 @@ import (
 	"io"
 	"strings"
 
-	"gitlab.yuribugelli.it/debian/go-debian/version"
+	"github.com/cinello/go-debian/version"
 
 	"gopkg.in/src-d/go-git.v4"
 	"gopkg.in/src-d/go-git.v4/plumbing"

@@ -5,9 +5,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"gitlab.yuribugelli.it/debian/git-dch-go/pkg/changelog"
-	"gitlab.yuribugelli.it/debian/git-dch-go/pkg/dchversion"
-	"gitlab.yuribugelli.it/debian/git-dch-go/pkg/git"
+	"github.com/cinello/git-dch/pkg/changelog"
+	"github.com/cinello/git-dch/pkg/dchversion"
+	"github.com/cinello/git-dch/pkg/git"
 
 	"github.com/jessevdk/go-flags"
 )

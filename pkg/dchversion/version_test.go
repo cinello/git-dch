@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gitlab.yuribugelli.it/debian/git-dch-go/pkg/git"
+	"github.com/cinello/git-dch/pkg/git"
 )
 
 func TestMustParse(t *testing.T) {

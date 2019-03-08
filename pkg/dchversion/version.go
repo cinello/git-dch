@@ -21,9 +21,9 @@ import (
 	"strconv"
 	"time"
 
-	"gitlab.yuribugelli.it/debian/git-dch-go/pkg/git"
+	"github.com/cinello/git-dch/pkg/git"
 
-	"gitlab.yuribugelli.it/debian/go-debian/version"
+	"github.com/cinello/go-debian/version"
 )
 
 var (

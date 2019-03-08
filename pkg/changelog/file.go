@@ -23,8 +23,8 @@ import (
 	"regexp"
 	"strings"
 
-	"gitlab.yuribugelli.it/debian/git-dch-go/pkg/dchversion"
-	"gitlab.yuribugelli.it/debian/git-dch-go/pkg/git"
+	"github.com/cinello/git-dch/pkg/dchversion"
+	"github.com/cinello/git-dch/pkg/git"
 )
 
 var (

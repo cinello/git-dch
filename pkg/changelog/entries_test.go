@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"gitlab.yuribugelli.it/debian/git-dch-go/pkg/dchversion"
+	"github.com/cinello/git-dch/pkg/dchversion"
 
-	"gitlab.yuribugelli.it/debian/go-debian/changelog"
-	"gitlab.yuribugelli.it/debian/go-debian/version"
+	"github.com/cinello/go-debian/changelog"
+	"github.com/cinello/go-debian/version"
 )
 
 func TestEntryToString(t *testing.T) {

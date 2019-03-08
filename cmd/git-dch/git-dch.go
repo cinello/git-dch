@@ -36,7 +36,7 @@ import (
 	"log"
 	"os"
 
-	"gitlab.yuribugelli.it/debian/git-dch-go/internal/app/git-dch"
+	"github.com/cinello/git-dch/internal/app/git-dch"
 )
 
 func main() {
