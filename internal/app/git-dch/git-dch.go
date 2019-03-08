@@ -20,6 +20,7 @@ const (
 
 var (
 	dTesting = []string{
+		"unstable", // TODO: remove for future releases
 		"testing",
 	}
 	dUnstable = []string{
@@ -69,6 +70,8 @@ var (
 		"jessie",
 		"stretch",
 		"buster",
+		// Other
+		"unstable",
 	}
 )
 
